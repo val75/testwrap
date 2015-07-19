@@ -1,0 +1,6 @@
+#!/bin/bash
+
+### Just runs the Java program, no arguments.
+### Good test to see if it just works.
+
+java com/testinmotion/twrap/Twrap
