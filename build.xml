@@ -1,0 +1,13 @@
+<project name="testwrap" default="twrap" basedir=".">
+	<property name="src" location="src/"/>
+	<property name="build" location="/home/val/workspace/eclipse/testwrap/bin/"/>
+	
+	<target name="tools">
+		<echo message="Compiling Tools"/>
+	</target>
+	
+	<target name="twrap">
+		<echo message="Compiling twrap"/>
+	    <javac includeantruntime="false" srcdir="${src}" destdir="${build}"/>
+	</target>
+</project>
